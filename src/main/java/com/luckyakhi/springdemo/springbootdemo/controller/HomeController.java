@@ -12,7 +12,7 @@ import com.luckyakhi.springdemo.springbootdemo.model.Response;
 public class HomeController {
 	
 	@RequestMapping(method=RequestMethod.GET)
-	@ResponseBody
+	@ResponseBody 
   	public Response  getHome(String name){
 		Response response = new Response();
 		response.setStatus("OK");
